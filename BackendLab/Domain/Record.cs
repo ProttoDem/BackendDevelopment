@@ -9,8 +9,9 @@
 
         public readonly DateTime CreationTime;
 
-        public Record(int sum, int userId, int categoryId)
+        public Record(int id, int sum, int userId, int categoryId)
         {
+            this.Id = id;
             this.Sum = sum;
             this.UserId = userId;
             this.CategoryId = categoryId;
